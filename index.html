@@ -16,11 +16,81 @@
 				<span class="square"></span>
 				<p>When it comes to learning, one thing is certain: our environment shapes and prepares us for learning.There are consequences that lack of a proper learning environment has on a person's capacity to learn.</p>
 				<button class="common-btn"> Read More</button>
+				<div class="line">
+					<span class="line-1"></span><br>
+					<span class="line-2"></span><br>
+					<span class="line-3"></span>
+					
+				</div>
 			</div>
 		</div>
 		
 	</section>
 
+	<nav id="sideNav">
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">ABOUT US</a></li>
+			<li><a href="#">FEATURES</a></li>
+			<li><a href="#">COURSES</a></li>
+			<li><a href="#">OFFER</a></li>
+			<li><a href="#">CONTACT</a></li>
+		</ul>
+	</nav>
+	<img src="./img/menu.png" id="menuBtn">
+
+	<!-- about -->
+	<section id="about">
+		
+		<div class="about-left-col">
+			<img src="./img/about.webp">
+		</div>
+		<div class="about-right-col">
+			<div class="about-text">
+				<h1>About Us</h1>
+				<span class="square"></span>
+				<p>Throughout the past years, I have worked to create systems that make learning simple, efficient, and fair. By achieving all three, this platform will transform what it means to learn.</p>
+				<div class="line">
+					<span class="line-1"></span><br>
+					<span class="line-2"></span><br>
+					<span class="line-3"></span>
+					
+				</div>
+
+
+				<h2>"Learning is not attained by chance, it must be sought for with ardor and attended to with diligence"</h2>
+				<h3>-----Abigail Adams</h3>
+			</div>
+
+			
+		</div>
+
+
+	</section>
+
+
+
+
+
+
+
+
+
+	<script>
+		var menuBtn = document.getElementById("menuBtn");
+		var sideNav = document.getElementById("sideNav");
+
+		sideNav.style.right = "-250px";
+		menuBtn.onclick = function (){
+			if (sideNav.style.right == "-250px"){
+				sideNav.style.right = "0";
+			}
+			else {
+				sideNav.style.right = "-250px";
+			}
+		}
+
+	</script>
 
 </body>
 </html>
