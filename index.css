@@ -152,3 +152,25 @@ nav ul li a{
 	font-style: italic;
 	color: #D7C0AE;
 }
+
+/*features*/
+
+#features{
+	padding-top: 50px;
+	padding-bottom: 5opx;
+}
+
+.feature-row{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.feature-col {
+	flex-basis: 25%;
+	text-align: center;
+	
+}
